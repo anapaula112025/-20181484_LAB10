@@ -5,6 +5,14 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <meta charset="utf-8"/>
+        <style>
+            .box {
+                border: 1px solid black;
+                width: 0px;
+                height: 0px;
+                float: left;
+                }
+        </style>
     </head>
     <body>
         <img src="Crash_Tumbalobos.jpg" class="img-fluid" style="width: 300px; padding: 50px;">
@@ -27,7 +35,7 @@
 
     <br />
 
-    <div style="width: 10px;" id="idteste2" class="image">
+    <div id="idteste2" class="image">
     </div>
     <p>
     </p>
@@ -44,7 +52,7 @@
                 
 
             var tmpImg = new Image();
-        tmpImg.src = "Crash_Tumbalobos.jpg";
+        tmpImg.src = "Sandy_Marroquin.jpg";
         $(tmpImg).one('load', function() {
         widthImg = tmpImg.width;
         heightImg = tmpImg.height;
@@ -57,7 +65,7 @@
         resWidth = resWidth - 1.5;
         resHeight = resHeight - 2;
 
-        link = "Crash_Tumbalobos.jpg";
+        link = "Sandy_Marroquin.jpg";
 
 
         valuePxl = 0;
